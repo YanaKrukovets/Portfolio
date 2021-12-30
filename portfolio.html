@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+        <title>Web developer. Portfolio. Yana Krukovets</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <div class="header-right">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <!--a href="#resume">Resume</a-->
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div id="welcome" class="center-text">
+                <img>
+                <h1>Hello! I'm Yana Krukovets</h1>
+                <h2>I'm a Web Developer</h2>
+                <h3>Let's make a new life in the Network</h3>
+                <a class="my-work-btn" href="#projects">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Check my work
+                </a>
+            </div>
+            <div class="tree treeBack tree1">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+            </div>
+            <div class="tree treeBack tree2">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+              <div class="tree treeBack tree3">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+              <div class="tree treeMid tree1">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+              <div class="tree treeMid tree2">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+              <div class="tree treeMid tree3">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+              <div class="tree treeFront tree1">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+              <div class="tree treeFront tree2">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+              <div class="tree treeFront tree3">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+                <div class="base"></div>
+              </div>
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+           
+            <div class="pPos">
+                <div class="pyramid one"></div>
+                <div class="pyramid two"></div>
+                <div class="pyramid three"></div>
+            </div> 
+        </header>
+
+        <section id="about">
+            <div class="margin-pos flex-disp center-text">
+                <div class="figure-size right-side">
+                    <img class="aboutme-img about-img" src="images/DSC_1944.jpeg" alt="Picture with Yana Krukovets">
+                    <h3>Who am I?</h3>
+                    <p>My name is Yana. I am a Web Developer based in Ottawa, Canada.</p>
+                </div>
+            
+                <div class="left-size">
+                    <h3>What can I do?</h3>
+                        <div class="flex-disp i-can">
+                            <div class="figure-size">
+                                <img class="about-img" src="images/strach.svg" alt="Create site from stratch">
+                                <h3>Website creation</h3>
+                                <p>Website creation from scratch</p>
+                            </div>
+                        
+                            <div class="figure-size">
+                                <img class="about-img" src="images/update.svg" alt="Finalization site">
+                                <h3>Finalization sites</h3>
+                                <p>Finalization of sites by adding full functionality to the site</p>
+                            </div>
+            
+                            <div class="figure-size">
+                                <img class="about-img" src="images/responsive.svg" alt="Responsive site">
+                                <h3>Responsive</h3>
+                                <p>My layouts will be beautiful and work on any device</p>
+                            </div>
+                        </div>
+                    <h3 class="center-text">What do I know?</h3>    
+                    <div class="i-know flex-disp">
+                        <div class="figure-size">
+                            <img class="about-img" src="images/know.svg" alt="Programming languages">
+                        </div>
+                        <div class="text-disp">
+                            <p>HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, mySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="projects" class="purple">
+            <h2>Projects</h2>
+            <a href="http://superquiz.great-site.net/"><img src="images/quiz.jpg" alt="Quiz website"></a>
+            <a href="http://memorygame.rf.gd"><img src="images/memory.jpg" alt="Memory game website"></a>
+            <a href="http://doughnut.epizy.com"><img src="images/doughnuts.jpg" alt="Doughnuts website"></a>
+        </section>
+
+        <section id="resume"></section>
+        <section id="contact">
+            <form action="action.php" method="post">
+                <fieldset>
+                    <legend><h2>Have a question or want to work together?</h2></legend>
+                    <p>* - required fields</p>
+                    <label for="name" class="form-label">Name:*</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
+                    <label for="email" class="form-label">Email:*</label>
+                    <input type="email" class="form-control" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{3,}$" placeholder="Enter your email" required>
+                    <label for="comment" class="form-label" >Message:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </fieldset>
+            </form>
+    
+        </section>
+        <footer class="purple">&copy;Yana Krukovets, 2021</footer>
+        <script src="logic.js"></script>
+    </body>
+</html>
